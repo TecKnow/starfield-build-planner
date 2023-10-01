@@ -1,0 +1,714 @@
+---
+Adaptive Frame:
+  materials:
+    Iron: 1
+    Aluminum: 1
+  workstation: Industrial Workbench
+Aldumite Drilling Rig:
+  materials:
+    Caesium: 1
+    Aldumite: 2
+    Microsecond Regulator: 1
+    Drilling Rig: 1
+  skills:
+    Special Projects: 4
+  workstation: Industrial Workbench
+Austenitic Manifold:
+  materials:
+    Reactive Gauge: 1
+    Nickel: 1
+    Iron: 1
+  workstation: Industrial Workbench
+Comm Relay:
+  materials:
+    Isocentered Magnet: 1
+    Tau Grade Rheostat: 1
+  workstation: Industrial Workbench
+Control Rod:
+  materials:
+    Isotopic Coolant: 1
+    Austenitic Manifold: 1
+    Dysprosium: 1
+  skills:
+    Special Projects: 3
+  workstation: Industrial Workbench
+Drilling Rig:
+  materials:
+    Reactive Gauge: 1
+    Tungesten: 1
+    Lubricant: 1
+  skills:
+    Special Projects: 2
+  workstation: Industrial Workbench
+Indicite Wafer:
+  materials:
+    Caesium: 1
+    Semimetal Wafer: 1
+    Indicite: 2
+    Solvent: 1
+  skills:
+    Special Projects: 4
+  workstation: Industrial Workbench
+Isocentered Magnet:
+  materials:
+    Cobalt: 1
+    Nickel: 1
+  workstation: Industrial Workbench
+Isotopic Coolant:
+  materials:
+    Ionic Liquids: 1
+    Tetrafluorides: 1
+  workstation: Industrial Workbench
+Mag Pressure Tank:
+  materials:
+    Nickel: 1
+    Aluminum: 1
+  workstation: Industrial Workbench
+Microsecond Regulator:
+  materials:
+    Supercooled Magnet: 1
+    Tau Grade Rheostat: 1
+    Lithium: 1
+    Europium: 2
+  skills:
+    Special Projects: 2
+  workstation: Industrial Workbench
+Molecular Sieve:
+  materials:
+    Ionic Liquids: 1
+    Mag Pressure Tank: 1
+    Membrane: 1
+  skills:
+    Special Projects: 2
+  workstation: Industrial Workbench
+Monopropellant:
+  materials:
+    Reactive Gauge: 1
+    Mag Pressure Tank: 1
+    Alkanes: 1
+  workstation: Industrial Workbench
+Nuclear Fuel Rod:
+  materials:
+    Uranium: 1
+    Semimetal Wafer: 1
+    Solvent: 1
+  skills:
+    Special Projects: 3
+  workstation: Industrial Workbench
+Paramagnon Conductor:
+  materials:
+    Neodymium: 1
+    Gold: 1
+    Zero Wire: 1
+  skills:
+    Special Projects: 2
+  workstation: Industrial Workbench
+Polytextible:
+  materials:
+    Cosmetic: 1
+    Fiber: 1
+  workstation: Industrial Workbench
+Positron Battery:
+  materials:
+    Vanadium: 1
+    Antimony: 1
+    Tau Grade Rheostat: 1
+  skills:
+    Special Projects: 2
+  workstation: Industrial Workbench
+Power Circuit:
+  materials:
+    Palladium: 2
+    Paramagnon Conductor: 1
+    Polymer: 1
+    Positron Battery: 1
+  skills:
+    Special Projects: 3
+  workstation: Industrial Workbench
+Reactive Gauge:
+  materials:
+    Aluminum: 1
+    Copper: 1
+  workstation: Industrial Workbench
+Rothicite Magnet:
+  materials:
+    Supercooled Magnet: 1
+    Semimetal Wafer: 1
+    Rothicite: 2
+    Lithium: 1
+  skills:
+    Special Projects: 2
+  workstation: Industrial Workbench
+Semimetal Wafer:
+  materials:
+    Antimony: 1
+    Gold: 1
+    Zero Wire: 1
+  skills:
+    Special Projects: 2
+  workstation: Industrial Workbench
+Sterile Nanotubes:
+  materials:
+    Vanadium: 1
+    Solvent: 1
+    Molecular Sieve: 1
+  skills:
+    Special Projects: 3
+  workstation: Industrial Workbench
+Substrate Molecular Sieve:
+  materials:
+    Memory Substrate: 1
+    Sterile Nanotubes: 1
+    Biosupressant: 1
+    Molecular Sieve: 1
+  skills:
+    Special Projects: 4
+  workstation: Industrial Workbench
+Supercooled Magnet:
+  materials:
+    Isocentered Magnet: 1
+    Isotopic Coolant: 2
+    Neodymium: 1
+  skills:
+    Special Projects: 2
+  workstation: Industrial Workbench
+Tasine Superconductor:
+  materials:
+    Palladium: 1
+    Paramagnon Conductor: 1
+    Polymer: 1
+    Tasine: 2
+  skills:
+    Special Projects: 4
+  workstation: Industrial Workbench
+Tau Grade Rheostat:
+  materials:
+    Beryllium: 1
+    Copper: 1
+  workstation: Industrial Workbench
+Veryl-Treated Manifold:
+  materials:
+    Veryl: 2
+    Lubricant: 1
+    Austenitic Manifold: 1
+    Ytterbium: 1
+  skills:
+    Special Projects: 4
+  workstation: Industrial Workbench
+Vytinium Fuel Rod:
+  materials:
+    Vytinium: 2
+    Indicite Wafer: 1
+    Plutonium: 1
+    Nuclear Fuel Rod: 1
+  skills:
+    Special Projects: 4
+  workstation: Industrial Workbench
+Zero Wire:
+  materials:
+    Silver: 1
+    Copper: 1
+  workstation: Industrial Workbench
+Extractor - Water Vapor:
+  materials:
+    Membrane: 2
+    Aluminum: 2
+    Benzene: 1
+  workstation: Outpost
+Extractor - Water Vapor - Commercial:
+  materials:
+    Tantalum: 2
+    Semimetal Wafer: 1
+    Adaptive Frame: 1
+    Austenitic Manifold: 1
+  workstation: Outpost
+Extractor - Solid:
+  materials:
+    Tungsten: 1
+    Aluminum: 2
+    Iron: 2
+  workstation: Outpost
+Extractor - Solid - Commercial:
+  materials:
+    Tungsten: 2
+    Adaptive Frame: 1
+    Isotopic Coolant: 1
+    Drilling Rig: 1
+  workstation: Outpost
+Extractor - Solid - Industrial:
+  materials:
+    Tungsten: 3
+    Aldumite Drilling Rig: 1
+    Adaptive Frame: 2
+    Isotopic Coolant: 2
+  workstation: Outpost
+Solar Array:
+  materials:
+    Aluminum: 2
+    Beryllium: 1
+    Copper: 1
+  workstation: Outpost
+Solar Dome:
+  materials:
+    Aluminum: 2
+    Tau Grade Rheostat: 1
+  workstation: Outpost
+Wind Turbine:
+  materials:
+    Aluminum: 2
+    Cobalt: 1
+    Nickel: 1
+  workstation: Outpost
+Wind Turbine - Advanced:
+  materials:
+    Aluminum: 2
+    Isocentered Magnet: 1
+  workstation: Outpost
+Fueled Generator:
+  materials:
+    Tungsten: 2
+    Isocentered Magnet: 1
+    Austenitic Manifold: 1
+    Tau Grade Rheostat: 1
+  workstation: Outpost
+Reactor:
+  materials:
+    Paramagnon Conductor: 2
+    Lead: 5
+    Nuclear Fuel Rod: 4
+    Control Rod: 1
+    Adaptive Frame: 3
+    Supercooled Magnet: 2
+    Tau Grade Rheostat: 1
+  workstation: Outpost
+Reactor - Advanced:
+  materials:
+    Tasine Superconductor: 2
+    Vytinium Fuel Rod: 4
+    Lead: 10
+    Power Circuit: 1
+    Adaptive Frame: 5
+    Rothicite Magnet: 2
+    Control Rod: 2
+  workstation: Outpost
+Powered Switch:
+  materials:
+    Aluminum: 1
+    Copper: 1
+  workstation: Outpost
+Transfer Container:
+  materials:
+    Tungsten: 2
+    Iron: 4
+    Lubricant: 2
+  workstation: Outpost
+Storage - Solid:
+  materials:
+    Aluminum: 2
+    Iron: 3
+    Adaptive Frame: 1
+  workstation: Outpost
+Storage - Solid - Medium:
+  materials:
+    Aluminum: 4
+    Iron: 5
+    Adaptive Frame: 2
+  workstation: Outpost
+Storage - Solid - Large:
+  materials:
+    Aluminum: 8
+    Iron: 10
+    Adaptive Frame: 5
+  workstation: Outpost
+Storage - Liquid:
+  materials:
+    Aluminum: 3
+    Adaptive Frame: 1
+    Nickel: 2
+  workstation: Outpost
+Storage - Liquid - Medium:
+  materials:
+    Aluminum: 5
+    Adaptive Frame: 2
+    Nickel: 4
+  workstation: Outpost
+Storage - Liquid - Large:
+  materials:
+    Aluminum: 10
+    Adaptive Frame: 5
+    Nickel: 8
+  workstation: Outpost
+Storage - Gas:
+  materials:
+    Tungsten: 2
+    Copper: 3
+    Adaptive Frame: 1
+  workstation: Outpost
+Storage - Gas - Medium:
+  materials:
+    Tungsten: 4
+    Copper: 5
+    Adaptive Frame: 2
+  workstation: Outpost
+Storage - Gas - Large:
+  materials:
+    Tungsten: 8
+    Copper: 10
+    Adaptive Frame: 5
+  workstation: Outpost
+Warehouse - Small:
+  materials:
+    Aluminum: 3
+    Adaptive Frame: 1
+    Titanium: 2
+  workstation: Outpost
+Warehouse - Medium:
+  materials:
+    Aluminum: 5
+    Adaptive Frame: 2
+    Titanium: 4
+  workstation: Outpost
+Warehouse - Large:
+  materials:
+    Aluminum: 10
+    Adaptive Frame: 5
+    Titanium: 8
+  workstation: Outpost
+Simple Fabricator:
+  materials:
+    Tungsten: 2
+    Aluminum: 4
+    Zero Wire: 1
+    Sealant: 1
+  workstation: Outpost
+Compound Fabricator:
+  materials:
+    Tungsten: 4
+    Zero Wire: 2
+    Adhesive: 2
+    Isotopic Coolant: 1
+  workstation: Outpost
+Multiplex Fabricator:
+  materials:
+    Polymer: 4
+    Lubricant: 3
+    Positron Battery: 1
+    Titanium: 4
+  workstation: Outpost
+Outpost Airlock:
+  materials:
+    Aluminum: 1
+    Lead: 1
+    Sealant: 1
+  workstation: Outpost
+Four Wall Hab:
+  materials:
+    Aluminum: 3
+    Lead: 2
+    Sealant: 1
+  workstation: Outpost
+Four Wall Hab - Double:
+  materials:
+    Aluminum: 5
+    Lead: 3
+    Sealant: 2
+  workstation: Outpost
+Hydroponic Hab A:
+  materials:
+    Aluminum: 3
+    Iron: 2
+    Sealant: 1
+  workstation: Outpost
+Hydroponic Hab B:
+  materials:
+    Aluminum: 3
+    Iron: 2
+    Sealant: 1
+  workstation: Outpost
+Science Hab Small:
+  materials:
+    Aluminum: 3
+    Lead: 2
+    Sealant: 1
+  workstation: Outpost
+Science Hab Flat Small:
+  materials:
+    Aluminum: 3
+    Lead: 2
+    Sealant: 1
+  workstation: Outpost
+Military Hab:
+  materials:
+    Lead: 2
+    Sealant: 1
+    Titanium: 3
+  workstation: Outpost
+Hab Round:
+  materials:
+    Aluminum: 4
+    Lead: 3
+    Sealant: 2
+  workstation: Outpost
+Hydroponic Hab Round:
+  materials:
+    Aluminum: 4
+    Lead: 3
+    Sealant: 2
+  workstation: Outpost
+Small Hex Hab:
+  materials:
+    Aluminum: 4
+    Lead: 3
+    Sealant: 2
+  workstation: Outpost
+Large Hex Hab:
+  materials:
+    Aluminum: 2
+    Lead: 3
+    Sealant: 4
+  workstation: Outpost
+Hallway - Industrial:
+  materials:
+    Aluminum: 1
+    Lead: 1
+    Sealant: 1
+  workstation: Outpost
+Hallway - Military:
+  materials:
+    Aluminum: 1
+    Lead: 1
+    Sealant: 1
+  workstation: Outpost
+Hallway - Science:
+  materials:
+    Aluminum: 1
+    Lead: 1
+    Sealant: 1
+  workstation: Outpost
+Hallway - Hydroponic:
+  materials:
+    Aluminum: 1
+    Lead: 1
+    Sealant: 1
+  workstation: Outpost
+Watchtower:
+  materials:
+    Aluminum: 5
+    Iron: 8
+    Adaptive Frame: 6
+    Argon: 3
+  workstation: Outpost
+Industrial Workbench:
+  materials:
+    Aluminum: 2
+    Iron: 1
+  workstation: Outpost
+Cooking Station:
+  materials:
+    Copper: 1
+    Iron: 2
+    Alkanes: 1
+  workstation: Outpost
+Pharmaceutical Lab:
+  materials:
+    Aluminum: 2
+    Iron: 1
+    Benzene: 1
+    Chlorine: 2
+  workstation: Outpost
+Weapons Workbench:
+  materials:
+    Iron: 2
+    Adhesive: 1
+    Nickel: 1
+    Sealant: 1
+  workstation: Outpost
+Spacesuit Workbench:
+  materials:
+    Cosmetic: 2
+    Aluminum: 2
+    Fiber: 1
+  workstation: Outpost
+Research Lab:
+  materials:
+    Aluminum: 2
+    Beryllium: 1
+    Copper: 1
+  workstation: Outpost
+Ballistic Turret Mk I:
+  materials:
+    Iron: 2
+    Beryllium: 1
+    Lead: 1
+  workstation: Outpost
+Ballistic Turret Mk II:
+  materials:
+    Tungsten: 1
+    Zero Wire: 1
+    Adhesive: 1
+    Titanium: 2
+  workstation: Outpost
+Ballistic Turret Mk III:
+  materials:
+    Tungsten: 2
+    Zero Wire: 2
+    Lubricant: 1
+    Microsecond Regulator: 1
+    Titanium: 3
+  workstation: Outpost
+Tick Turret Mk I:
+  materials:
+    Aluminum: 1
+    Zero Wire: 1
+    Fluorine: 1
+    Chlorine: 1
+  workstation: Outpost
+Laser Turret Mk I:
+  materials:
+    Aluminum: 2
+    Beryllium: 1
+    Fluorine: 1
+    Chlorine: 1
+  workstation: Outpost
+Laser Turret Mk II:
+  materials:
+    Iridium: 1
+    Tau Grade Rheostat: 1
+    Paramagnon Conductor: 1
+    Titanium: 2
+  workstation: Outpost
+Laser Turret Mk III:
+  materials:
+    Tasine Superconductor: 1
+    Xenon: 1
+    Isotopic Coolant: 1
+    Titanium: 3
+  workstation: Outpost
+Sanitation Mini Bot:
+  materials:
+    Aluminum: 2
+    Zero Wire: 1
+    Beryllium: 1
+  workstation: Outpost
+Garden Mini Bot:
+  materials:
+    Aluminum: 2
+    Zero Wire: 1
+    Beryllium: 1
+  workstation: Outpost
+Security Mini Bot:
+  materials:
+    Aluminum: 2
+    Zero Wire: 1
+    Beryllium: 1
+  workstation: Outpost
+Engineering Robot:
+  materials:
+    Uranium: 1
+    Zero Wire: 1
+    Polymer: 2
+    Positron Battery: 1
+    Titanium: 2
+  workstation: Outpost
+Logistics Robot:
+  materials:
+    Uranium: 1
+    Zero Wire: 1
+    Polymer: 2
+    Positron Battery: 1
+    Titanium: 2
+  workstation: Outpost
+Power Management Robot:
+  materials:
+    Uranium: 1
+    Zero Wire: 1
+    Polymer: 2
+    Positron Battery: 1
+    Titanium: 2
+  workstation: Outpost
+Secuirty Robot A:
+  materials:
+    Uranium: 1
+    Polymer: 2
+    Paramagnon Conductor: 1
+    Positron Battery: 1
+    Titanium: 2
+  workstation: Outpost
+Security Robot B:
+  materials:
+    Plutonium: 1
+    Polymer: 2
+    Paramagnon Conductor: 1
+    Microsecond Regulator: 1
+    Titanium: 3
+  workstation: Outpost
+Scan Booster:
+  materials:
+    Aluminum: 2
+    Beryllium: 1
+    Copper: 1
+  workstation: Outpost
+Scan Booster - Advanced:
+  materials:
+    Aluminum: 2
+    Comm Relay: 1
+    Zero Wire: 1
+    Isocentered Magnet: 1
+  workstation: Outpost
+Scan Booster - Military Grade:
+  materials:
+    Aluminum: 3
+    Comm Relay: 1
+    Supercooled Magnet: 1
+    Paramagnon Conductor: 1
+  workstation: Outpost
+Cargo Link:
+  materials:
+    Aluminum: 6
+    Iron: 10
+    Beryllium: 1
+    Zero Wire: 1
+  workstation: Outpost
+Cargo Link - Inter - System:
+    materials:
+      Aluminum: 6
+      Iron: 10
+      Reactive Gauge: 1
+      Comm Relay: 1
+    workstation: Outpost
+Crew Station:
+  materials:
+    Aluminum: 2
+    Iron: 1
+    Nickel: 1
+  workstation: Outpost
+Landing Pad with Shipbuilder:
+  materials:
+    Iron: 15
+    Beryllium: 1
+    Adaptive Frame: 9
+    Zero Wire: 1
+  workstation: Outpost
+Landing Pad - Small:
+  materials:
+    Aluminum: 4
+    Iron: 10
+  workstation: Outpost
+Mission Board:
+  materials:
+    Aluminum: 2
+    Zero Wire: 1
+    Beryllium: 1
+  workstation: Outpost
+Constellation Mission Board:
+  materials:
+    Aluminum: 2
+    Zero Wire: 1
+    Beryllium: 1
+  workstation: Outpost
+Self-Service Bounty Clearence:
+  materials:
+    Aluminum: 2
+    Zero Wire: 1
+    Beryllium: 1
+  workstation: Outpost
