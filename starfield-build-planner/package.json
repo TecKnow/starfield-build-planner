@@ -9,10 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "client-only": "^0.0.1",
     "graphology": "^0.25.4",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "server-only": "^0.0.1",
     "yaml": "^2.3.2"
   },
   "devDependencies": {
