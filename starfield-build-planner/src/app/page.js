@@ -1,14 +1,17 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import fs from "fs";
 
-import Graph from 'graphology';
+import Image from "next/image";
+import styles from "./page.module.css";
 
-const graph = new Graph()
+import Graph from "graphology";
+import YAML from "yaml";
+
+const graph = new Graph();
 
 graph.addNode("John");
 graph.addNode("Martha");
 
-graph.addEdge("John", "Martha")
+graph.addEdge("John", "Martha");
 
 console.log("Number of nodes", graph.order);
 console.log("Number of edges", graph.size);
@@ -27,7 +30,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
+            By{" "}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -103,5 +106,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
+  );
 }
