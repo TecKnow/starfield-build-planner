@@ -9,22 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@react-sigma/core": "^3.4.2",
+    "@viz-js/viz": "^3.2.3",
     "client-only": "^0.0.1",
     "graphology": "^0.25.4",
     "graphology-dag": "^0.3.0",
-    "graphology-layout": "^0.6.1",
-    "graphology-layout-forceatlas2": "^0.10.1",
-    "lodash": "^4.17.21",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
+    "next": "^13.5.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "server-only": "^0.0.1",
-    "sigma": "^2.4.0",
-    "yaml": "^2.3.2"
+    "yaml": "^2.3.3"
   },
   "devDependencies": {
-    "eslint": "latest",
-    "eslint-config-next": "latest"
+    "eslint": "^8.52.0",
+    "eslint-config-next": "^13.5.6"
   }
 }

@@ -1,7 +1,6 @@
 import { readFileSync } from "node:fs";
 import { cache } from "react";
 
-import Graph from "graphology";
 import YAML from "yaml";
 
 import "server-only";
