@@ -4,7 +4,9 @@ import { cache } from "react";
 import YAML from "yaml";
 
 import "server-only";
-import RecipeGraph from "./RecipeGraph";
+
+import RecipeGraphContextProvider from "./RecipeGraphContextProvider";
+import RecipeViz from "./RecipeViz";
 
 export const getRecipeData = cache(async () => {
   const FileContents = await readFileSync("../data/Recipes.yml", "utf-8");
@@ -15,7 +17,9 @@ export const getRecipeData = cache(async () => {
 export default async function Home() {
   return (
     <main>
-      <RecipeGraph recipesData={await getRecipeData()} />
+      <RecipeGraphContextProvider recipesData={await getRecipeData()}>
+        <RecipeViz />
+      </RecipeGraphContextProvider>
     </main>
   );
 }
