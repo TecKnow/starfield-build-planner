@@ -1,12 +1,36 @@
 "use client";
 import "client-only";
 
-import { useContext, useEffect, useRef, useState } from "react";
+import { useContext, useEffect, useRef } from "react";
 import { RecipeGraphContext } from "./Contexts";
 import { instance } from "@viz-js/viz";
 
-function makeGraphJSON(recipeGraph){
-    return {edges:[{tail: "a", head: "b"}]}
+function makeGraphNodesJSON(recipeGraph) {
+  return recipeGraph.mapNodes((node) => ({ name: node }));
+}
+
+function makeGraphEdgesJSON(recipeGraph) {
+  return recipeGraph.mapEdges(
+    (edge, attributes, source, target, sourceAttributes, targetAttributes) => {
+      return { head: target, tail: source, attributes: { label: attributes["count"] } };
+    }
+  );
+}
+
+function getSkills(recipeGraph){
+  //TODO: This includes undefined, doesn't recognize identical skill levels as the same.
+  return new Set(recipeGraph.mapNodes((node, attributes)=>attributes["skills"]))
+}
+
+function getWorkstations(recipeGraph){
+  //TODO: This includes undefined.
+  return new Set(recipeGraph.mapNodes((node, attributes)=>attributes["workstation"]))
+}
+
+function makeGraphJSON(recipeGraph) {
+  return { graphAttributes: {rankdir: "LR"},
+           nodes: makeGraphNodesJSON(recipeGraph), 
+           edges: makeGraphEdgesJSON(recipeGraph)};
 }
 
 export default function RecipeViz() {
@@ -16,6 +40,7 @@ export default function RecipeViz() {
   useEffect(() => {
     if (recipeGraph === undefined) return;
 
+    console.log(getWorkstations(recipeGraph));
     const containingElement = containerRef.current;
     const graphElement = (async () => {
       const viz = await instance();
